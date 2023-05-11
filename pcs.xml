@@ -1,0 +1,72 @@
+<?xml veersion="1.0" encoding="UTF-8"?>
+
+<catalog>
+    <computers count="6">
+    <computer>
+    <name>HYPERPC NANO X<name>
+    <cost>2100$<cost>
+    <videocard>NVIDIA GeForce RTX 3060 Ti [8GB, 4864 CUDA]<videocard>
+    <cpu>Intel® Core™ i5-12400(F) [до 4.4GHz, 6 ядер]</cpu>
+    <motherboard> ASROCK H670M-ITX/AX [DDR4, Wi-Fi]</motherboard>
+    <ram>16GB Kingston Fury Beast RGB [DDR4, 3600MHz, 2x8GB]</ram>
+    <ssd>1TB Samsung 990 PRO [7450MB/s, Gen4]</ssd>
+    <power>750W HYPERPC SFX [80+ Gold]</power>
+    <os>Microsoft Windows 11 Home BOX</os>
+    </computer>
+        <computer>
+    <name>HYPERPC CYBER MAX<name>
+    <cost>6500$<cost>
+    <videocard>NVIDIA GeForce RTX 4090 [24GB, 16384 CUDA]<videocard>
+    <cpu>Intel® Core™ i9-13900K(F) [до 5.8GHz, 24 ядра]</cpu>
+    <motherboard>MSI MPG Z790 EDGE [DDR5, Wi-Fi]</motherboard>
+    <ram>64GB Corsair Dominator Platinum RGB [DDR5, 5600MHz, 2x32GB]</ram>
+    <ssd>3TB Samsung 980 PRO [7000MB/s, Gen4]</ssd>
+    <power> 1000W Phanteks REVOLT PRO [80+ Gold]</power>
+    <operating>Microsoft Windows 11 Home BOX</operating>
+    </computer>
+        <computer>
+    <name>HYPERPC VOLT MAX<name>
+    <cost>5500$<cost>
+    <videocard> NVIDIA GeForce RTX 4070 Ti [12GB, 7680 CUDA]]<videocard>
+    <cpu>Intel® Core™ i7-13700(F) [до 5.2GHz, 16 ядер]</cpu>
+    <motherboard> MSI MPG Z790 EDGE [DDR5, Wi-Fi]</motherboard>
+    <ram>64GB Corsair Dominator Platinum RGB [DDR5, 5600MHz, 2x32GB]</ram>
+    <ssd>3TB Samsung 980 PRO [7000MB/s, Gen4]</ssd>
+    <power>850W Phanteks AMP [80+ Gold]</power>
+    <operating>Microsoft Windows 11 Home OEM</operating>
+    </computer>
+        <computer>
+    <name>HYPERPC DYNAMIC<name>
+    <cost>3200$<cost>
+    <videocard>NVIDIA GeForce RTX 3070 Ti [8GB, 6144 CUDA]<videocard>
+    <cpu>Intel® Core™ i7-12700(F) [до 4.9GHz, 12 ядер]</cpu>
+    <motherboard> ASUS TUF GAMING B660M-PLUS [DDR4, Wi-Fi]</motherboard>
+    <ram>32GB Kingston Renegade RGB DDR4-3600 (2 x 16 GB)</ram>
+    <ssd> 2TB HYPERPC PLUS</ssd>
+    <power>850W HYPERPC SFX [80+ Gold]</power>
+    <operating>Microsoft Windows 11 Home BOX</operating>
+    </computer>
+        <computer>
+    <name>HYPERPC CYBER<name>
+    <cost>4200$<cost>
+    <videocard>NVIDIA GeForce RTX 4070 Ti [12GB, 7680 CUDA]<videocard>
+    <cpu>Intel® Core™ i7-13700K(F) [до 5.4GHz, 16 ядер]</cpu>
+    <motherboard>MSI PRO Z790-A [DDR5, Wi-Fi]</motherboard>
+    <ram>32GB Kingston Fury Beast RGB [DDR5, 5200MHz, 2x16GB]</ram>
+    <ssd> 2TB Samsung 990 PRO [7450MB/s, Gen4]</ssd>
+    <power>850W Phanteks AMP [80+ Gold]</power>
+    <operating>Microsoft Windows 11 Home OEM</operating>
+    </computer>
+        <computer>
+    <name>HYPERPC LUMEN<name>
+    <cost>2200$<cost>
+    <videocard>NVIDIA GeForce RTX 3060 [12GB, 3584 CUDA]<videocard>
+    <cpu>Intel® Core™ i5-13400(F) [до 4.6GHz, 10 ядер]</cpu>
+    <motherboard>MSI PRO B760-P [DDR4, Wi-Fi]</motherboard>
+    <ram>16GB Kingston Fury Beast RGB [DDR4, 3600MHz, 2x8GB</ram>
+    <ssd> 2TB WD Black SN770 [4900MB/s, Gen4]</ssd>
+    <power>850W Phanteks AMP [80+ Gold]</power>
+    <operating>Microsoft Windows 11 Home BOX</operating>
+    </computer>
+    </computers>
+</catalog>

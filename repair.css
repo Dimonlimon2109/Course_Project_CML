@@ -1,0 +1,222 @@
+.start {
+    padding-top: 300px;
+    width: 100%;
+    margin-bottom: 8%;
+
+}
+.start_h {
+    background: none;
+    font-size:30pt;
+    text-align: center;
+    width:100%;
+
+}
+.start_text {
+    background: none;
+    font-size: 22px;
+    width: 70%;
+    text-align: center;
+    margin: 1% 0 0 15%;
+}
+.partnership {
+    margin: 10% 0;
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: center;
+    width: 100%;
+}
+.partner {
+    width: 200px;
+    height: auto;
+    margin-right: 5%;
+}
+.katalog_h {
+    font-size: 30px;
+}
+.katalog {
+    margin-top: 5%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.repair {
+    margin:  0 5% 3% 0;
+}
+.repair figcaption {
+    margin-top: 2%;
+    margin-left: 20%;
+    width: 60%;
+    text-align: center;
+}
+.cost {
+    font-weight: 800;
+    margin-left: 3%;
+    margin-top: 100px;
+}
+
+.buy_button, button {
+    position: relative;
+    z-index: 0;
+    left: 0;
+    top: 10px;
+    left: 2px;
+    display: inline-block;
+    font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: rgb(245,245,245);
+    text-shadow: 0 -1px rgba(0,0,0,.1);
+    text-decoration: none;
+    user-select: none;
+    padding: .3em 1em;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: red linear-gradient(#f65d5d, red);
+    box-shadow: inset red 0 -1px 1px, inset 0 1px 1px #f65d5d, red 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
+    animation: pulsate 1.2s linear infinite;
+  }
+  .buy_button:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+  }
+  .buy_button:active {
+    top: 10px;
+    color: #fff;
+    text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+    box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05); 
+  }
+  @keyframes pulsate {
+    50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+  }
+
+  h1 {
+    text-align: center;
+    font-size: calc(14px + 16 *(100vw / 1519));
+  }
+
+  .help_h {
+    text-align: center;
+    width: 100%;
+  }
+
+.help {
+    margin-top: 5%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(14px + 11 *(100vw / 1519));
+}
+
+.help_form {
+	max-width:400px;
+	width:100%;
+	position:relative;
+    margin: 0 0 0 10%;
+}
+
+fieldset {
+	border: medium none;
+	margin: 0 0 5px;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:95%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:8px;
+    color:#000000;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:99%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+
+@media screen and (max-width: 1080px) {
+
+    .help img {
+        margin: 0 0 5% 0;
+        width: 100%;
+        height: auto;
+    }
+    .container {
+        padding-top: 5%;
+        margin: 0 0 0 2%;
+
+    }
+    .buy_button {
+        margin-bottom: 10%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .help {
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+    .partner {
+        width: 20%;
+    }
+}
+@media screen and (max-width:801px) {
+    .katalog {
+        margin-top: 10%;
+        flex-direction: nowrap;
+    }
+    .repair {
+        margin: 0;
+    }
+    .repair img {
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .repair figcaption {
+        width: 70%;
+    }
+    #contact button[type="submit"]{
+        width: 90%;
+        margin-left: 2%;
+    }
+    #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+        width: 90%;
+    }
+    .start {
+        padding-top: 100px;
+    }
+    }
+    

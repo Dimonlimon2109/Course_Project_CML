@@ -1,0 +1,143 @@
+.start {
+    padding-top: 300px;
+    background: url(./images/nvidia_pc.jpg) no-repeat;    
+    width: 100%;
+    height: 40vi;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+
+}
+.start_h {
+    font-size: 30px;
+    margin-left: 15%;
+    margin-bottom: 2%;
+    width:30%;
+    background: none;
+}
+.start_text {
+    font-size: 20px;
+    width: 45%;
+    margin-left: 2%;
+    background: none;
+}
+.katalog_h {
+    font-size: 30px;
+    text-align: center;
+    margin: 5% 0 0 0;
+}
+.katalog {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.pc {
+    margin-top: 5%;
+    width: 40%;
+}
+.about_pc {
+  width: 40%;
+  margin-bottom: 5%;
+}
+.pc img{
+    margin-left: 10%;
+    width: 65%;
+}
+.pc figcaption {
+    margin-top: 3%;
+    width: 80%;
+    text-align: center;
+}
+.cost {
+    font-weight: 800;
+}
+.buy_button {
+    position: relative;
+    z-index: 0;
+    top: 10px;
+    display: inline-block;
+    font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: rgb(245,245,245);
+    text-shadow: 0 -1px rgba(0,0,0,.1);
+    text-decoration: none;
+    user-select: none;
+    padding: .3em 1em;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: red linear-gradient(#f65d5d, red);
+    box-shadow: inset red 0 -1px 1px, inset 0 1px 1px #f65d5d, red 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
+    animation: pulsate 1.2s linear infinite;
+  }
+  .buy_button:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+  }
+  .buy_button:active {
+    top: 10px;
+    color: #fff;
+    text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+    box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05); 
+  }
+  @keyframes pulsate {
+    50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+  }
+
+  .about_pc1 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 5%;
+  }
+  .accessories {
+    font-size: 22px;
+    font-weight: 800;
+  }
+
+  @media screen and (max-width: 1080px) {
+
+    .start_h {
+      width:100%;
+      margin: 0 0 2% 0 ;
+      text-align: center;
+  }
+    .start_text {
+      width: 80%;
+      margin: 0 3% 0 10%;
+      text-align: center;
+  }
+  .start {
+  padding-top: 200px;
+  }
+  .katalog {
+    flex-flow: column nowrap;
+    width:100%;
+  }
+  .pc {
+    width: 100%;
+  }
+  .pc img {
+    width: 80%;
+    height:auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .about_pc {
+    width: 100%;
+    text-align: center;
+  }
+  .pc figcaption {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+}
+.cost {
+  margin-left:0;
+}
+.buy_button {
+  left: 0;
+  margin-bottom: 5%;
+}
+  }

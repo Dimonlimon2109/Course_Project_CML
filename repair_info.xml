@@ -1,0 +1,28 @@
+<?xml veersion="1.0" encoding="UTF-8"?>
+
+<catalog>
+<repair>
+<type>Замена матрицы</type>
+<cost>200<cost>
+</repair>
+<repair>
+<type>Установка Windows</type>
+<cost>35<cost>
+</repair>
+<repair>
+<type>Чистка</type>
+<cost>25<cost>
+</repair>
+<repair>
+<type>Восстановление информации</type>
+<cost>22<cost>
+</repair>
+<repair>
+<type>Устранение вирусов</type>
+<cost>18<cost>
+</repair>
+<repair>
+<type>Замена составляющих</type>
+<cost>75<cost>
+</repair>
+</catalog>

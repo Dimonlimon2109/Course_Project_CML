@@ -1,0 +1,111 @@
+.first {
+    padding-top: 200px;
+}
+h1 {
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: calc(15px + 15 *(100vw / 1519));
+}
+
+.about {
+    font-size:calc(10px + 15 *(100vw / 1519));
+    margin: 1%;
+    text-align: center;
+}
+
+.about_img_text {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.about_text_container {
+    font-size: 18px;
+    color: #6c6c6c;
+    margin-left: 10%;
+}
+.team {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+figcaption {
+    margin-top: 2%;
+}
+.our_team {
+    font-size:calc(10px + 15 *(100vw / 1519));
+    margin: 0 10% 5% 10%;
+    text-align: center;
+
+}
+.teammate{
+    flex: 1 1 50%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.team figcaption {
+    font-size:calc(10px + 15 *(100vw / 1519));
+    margin-bottom: 3%;
+}
+
+.our_reviews {
+    font-size:calc(10px + 15 *(100vw / 1519));
+    margin: 0 10% 5% 10%;
+    text-align: center;
+}
+.review {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    align-items: flex-start;
+    justify-content: center; 
+}
+.review figcaption {
+    font-size:calc(10px + 15 *(100vw / 1519));
+}
+.reviewer1 {
+    order: 1;
+    align-self: flex-start ;
+    flex: 1 1 50%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.reviewer2 {
+    order: 2;
+    align-self: flex-start ;
+    flex: 1 1 50%;
+    text-align: center;
+}
+ .review_text{
+    display: inline-block;
+    width:70%;
+    text-align: center;
+    margin-top: 2%;
+    font-size:calc(10px + 10 *(100vw / 1519));
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 1080px) {
+    .first {
+        padding-top: 100px;
+    }
+    label {
+        background-color: #000000;
+    }
+    .about_img_text {
+        grid-template-columns: auto;
+    }
+    .team {
+        flex-flow:column nowrap;
+    }
+    .review {
+        flex-flow: column nowrap;
+    }
+    .about_img_text {
+        grid-template-columns: 100%;
+    }
+    .about_text_container {
+        margin: 1%;
+    }
+}
